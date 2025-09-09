@@ -18,4 +18,31 @@ body {
     padding: 20px;
     box-sizing: border-box;
     display: flex;
+    gap: 20px;
+}
+
+.sidebar-satu {
+    width: 25%;
+}
+
+.kolom-utama {
+    width: 60%;
+}
+
+.sidebar-dua {
+    width: 20%;
+}
+
+.sidebar-satu ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.sidebar-satu a {
+    text-decoration: none;
+    color: purple;
+}
+
+h2, h3 {
+    margin-top: 0;
 }
