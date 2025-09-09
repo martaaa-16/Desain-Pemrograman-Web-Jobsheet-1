@@ -13,6 +13,7 @@ body {
 /*Latihan 1*/
 .container-satu {
     width: 800px;
+    max-width: 1000px;
     margin: 50px auto;
     background-color: #fff;
     padding: 20px;
@@ -22,15 +23,24 @@ body {
 }
 
 .sidebar-satu {
-    width: 25%;
+    background-color: #ffe6e6;
+    padding: 10px;
+    flex: 1;
+    order: 1;
 }
 
 .kolom-utama {
-    width: 60%;
+    background-color: #e6f7ff;
+    padding: 10px;
+    flex: 2;
+    order: 2;
 }
 
 .sidebar-dua {
-    width: 20%;
+    background-color: #e6ffe6;
+    padding: 10px;
+    flex: 1;
+    order: 3;
 }
 
 .sidebar-satu ul {
@@ -45,4 +55,16 @@ body {
 
 h2, h3 {
     margin-top: 0;
+}
+
+.img-sidebar {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.img-utama {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
 }
