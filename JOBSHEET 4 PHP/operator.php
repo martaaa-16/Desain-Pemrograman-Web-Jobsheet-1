@@ -61,4 +61,13 @@ echo "Penugasan Hasil Kurang: {$penugasanHasilKurang} <br>";
 echo "Penugasan Hasil Kali: {$penugasanHasilKali} <br>";
 echo "Penugasan Hasil Bagi: {$penugasanHasilBagi} <br>";
 echo "Penugasan Sisa Bagi: {$penugasanSisaBagi} <br>";
+
+//soal no 3.5
+$hasilIdentik = $a === $b;
+$hasilTidakIdentik = $a !== $b;
+
+echo "<br>";
+echo "<br>";
+echo "Hasil Identik: {$hasilIdentik} <br>";
+echo "Hasil Tidak Identik: {$hasilTidakIdentik} <br>";
 ?>
