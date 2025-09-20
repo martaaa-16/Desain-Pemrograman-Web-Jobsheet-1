@@ -46,4 +46,19 @@ echo "Hasil And: {$hasilAnd} <br>";
 echo "Hasil Or: {$hasilOr} <br>";
 echo "Hasil Not A: {$hasilNotA} <br>";
 echo "Hasil Not B: {$hasilNotB} <br>";
+
+//soal no 3.4
+$penugasanHasilTambah = $a += $b;
+$penugasanHasilKurang = $a -= $b;
+$penugasanHasilKali = $a *= $b;
+$penugasanHasilBagi = $a /= $b;
+$penugasanSisaBagi = $a %= $b;
+
+echo "<br>";
+echo "<br>";
+echo "Penugasan Hasil Tambah: {$penugasanHasilTambah} <br>";
+echo "Penugasan Hasil Kurang: {$penugasanHasilKurang} <br>";
+echo "Penugasan Hasil Kali: {$penugasanHasilKali} <br>";
+echo "Penugasan Hasil Bagi: {$penugasanHasilBagi} <br>";
+echo "Penugasan Sisa Bagi: {$penugasanSisaBagi} <br>";
 ?>
