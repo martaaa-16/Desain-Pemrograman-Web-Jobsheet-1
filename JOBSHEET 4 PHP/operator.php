@@ -17,7 +17,7 @@ echo "Hasil Bagi: {$hasilBagi} <br>";
 echo "Sisa Bagi: {$sisaBagi} <br>";
 echo "Pangkat: {$pangkat} <br>";
 
-//soa; no 3.2
+//soal no 3.2
 $hasilSama = $a == $b;
 $hasilTidakSama = $a != $b;
 $hasilLebihKecil = $a < $b;
@@ -33,4 +33,17 @@ echo "Hasil Lebih Kecil: {$hasilLebihKecil} <br>";
 echo "Hasil Lebih Besar: {$hasilLebihBesar} <br>";
 echo "Hasil Lebih Kecil Sama: {$hasilLebihKecilSama} <br>";
 echo "Hasil Lebih Besar Sama: {$hasilLebihBesarSama} <br>";
+
+//soal no 3.3
+$hasilAnd = $a && $b;
+$hasilOr = $a || $b;
+$hasilNotA = !$a;
+$hasilNotB = !$b;
+
+echo "<br>";
+echo "<br>";
+echo "Hasil And: {$hasilAnd} <br>";
+echo "Hasil Or: {$hasilOr} <br>";
+echo "Hasil Not A: {$hasilNotA} <br>";
+echo "Hasil Not B: {$hasilNotB} <br>";
 ?>
