@@ -8,4 +8,3 @@ function hitungUmur($thn_lahir, $thn_sekarang) {
 
 echo "Umur saya adalah " . hitungUmur(2005, 2025) . " tahun";
 ?>
-
