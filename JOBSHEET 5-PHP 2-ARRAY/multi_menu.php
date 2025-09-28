@@ -35,8 +35,15 @@ $menu = [
 
 function tampilkanMenuBertingkat(array $menu) {
     echo "<ul>";
-    foreach ($menu as $key => $item) {
-        echo "<li>{$item['nama']}</li>";
+    foreach ($menu as $item) {
+        echo "<li>{$item['nama']}";
+        
+        // Jika ada subMenu, panggil diri sendiri
+        if (isset($item['subMenu'])) {
+            tampilkanMenuBertingkat($item['subMenu']);
+        }
+        
+        echo "</li>";
     }
     echo "</ul>";
 }
