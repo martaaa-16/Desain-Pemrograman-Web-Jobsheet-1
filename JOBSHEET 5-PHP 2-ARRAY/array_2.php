@@ -4,7 +4,31 @@
 <head>
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title>Data Dosen</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin-top: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        th, td {
+            border: 1px solid #999;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        caption {
+            caption-side: top;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 
 <body>
@@ -14,12 +38,23 @@
         'domisili' => 'Malang',
         'jenis_kelamin' => 'Perempuan'
     ];
-
-    echo "Nama : {$Dosen['nama']} <br>";
-    echo "Domisili : {$Dosen['domisili']} <br>";
-    echo "Jenis Kelamin : {$Dosen['jenis_kelamin']} <br>";
-
     ?>
+
+    <table>
+        <caption>Data Dosen</caption>
+        <tr>
+            <th>Nama</th>
+            <td><?= $Dosen['nama']; ?></td>
+        </tr>
+        <tr>
+            <th>Domisili</th>
+            <td><?= $Dosen['domisili']; ?></td>
+        </tr>
+        <tr>
+            <th>Jenis Kelamin</th>
+            <td><?= $Dosen['jenis_kelamin']; ?></td>
+        </tr>
+    </table>
 
 </body>
 
